@@ -1,0 +1,9 @@
+# Local development and preview files (Do not push to GitHub)
+preview.html
+SETUP_GUIDE.md
+*.py
+*.pyc
+__pycache__/
+*.log
+.system_generated/
+scratch/
