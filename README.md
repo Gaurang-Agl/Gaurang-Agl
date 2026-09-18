@@ -1,4 +1,11 @@
-# Gaurang Agarwal — Profile Optimization
+<div align="center">
 
-Software Quality Engineer (7+ Yrs) & Backend Developer.
-Hands-on production-style systems with Python, Django, Celery, Redis, and PostgreSQL.
+<img src="./assets/banner.svg" width="100%" alt="Gaurang Agarwal — Senior QA Engineer & Backend Software Developer" />
+
+<br />
+
+**Senior QA Engineer (7+ Yrs) · Backend Software Developer**
+
+</div>
+
+---
