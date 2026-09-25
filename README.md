@@ -26,3 +26,19 @@ DEVELOPMENT TOOLS    Cursor • VS Code • Postman • Docker Desktop • GitHu
 
 ---
 
+
+### `02 / FEATURED SYSTEMS & REPOSITORIES (PUBLIC DEEP-DIVE)`
+
+#### 🏢 [TeamBoard (B2BKnowledgeBase) — Enterprise B2B Knowledge Platform](https://github.com/Gaurang-Agl/B2BKnowledgeBase)
+> **Stack:** Python 3.14 · Django 6.1 · Django REST Framework · Simple JWT · PostgreSQL 17 · Docker Compose
+- **Platform Architecture:** Centralized B2B Knowledge Base API service serving multi-company client applications with dual authentication (Company API Key + JWT Bearer tokens).
+- **Authentication Gateway & Query Telemetry:**
+  - Company self-service registration automatically issues cryptographically secure 64-character API keys using `secrets.token_urlsafe(32)`.
+  - Secure JWT authentication (`Simple JWT`) governs user-level access to full-text knowledge base queries.
+  - Built-in query logging middleware and admin usage statistics tracking endpoint consumption across tenant companies.
+  - Zero-Result Query Logging: Unmatched queries are recorded in `QueryLog` to detect customer documentation gaps.
+- **Deterministic Seeding & Containerization:**
+  - Custom Django management command (`python manage.py seed_kb`) providing automated database population with baseline knowledge entries for testing and CI.
+  - Containerized PostgreSQL 17 managed via Docker Compose for clean, reproducible development and staging environments.
+  - Full API validation suite via `B2BKnowledgeBase_Postman_Collection.json` covering 11 distinct scenarios.
+
