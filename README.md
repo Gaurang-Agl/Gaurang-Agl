@@ -42,3 +42,18 @@ DEVELOPMENT TOOLS    Cursor • VS Code • Postman • Docker Desktop • GitHu
   - Containerized PostgreSQL 17 managed via Docker Compose for clean, reproducible development and staging environments.
   - Full API validation suite via `B2BKnowledgeBase_Postman_Collection.json` covering 11 distinct scenarios.
 
+
+#### ⚡ [EventHub — Concurrency-Safe Ticketing & Seat Reservation Platform](https://github.com/Gaurang-Agl/EventHub-Assignment)
+> **Stack:** Python · Django · Django REST Framework · SQLite / PostgreSQL · Custom Middleware
+- **Concurrency & Anti-Overbooking Engine:** High-volume event booking backend designed to prevent race conditions and double-booking anomalies during peak ticket drops.
+- **Transactional Integrity:**
+  - Single Source of Truth: Inventory deductions are encapsulated inside `ReservationSerializer.create()` to guarantee reservations cannot exist without inventory reduction.
+  - Dynamic seat restoration logic that safely replenishes venue availability when reservations are cancelled or expire, with idempotent protection against re-cancellation.
+- **Performance Middleware & Filtering:**
+  - Custom request/response logging middleware (`middleware.py`) tracking HTTP methods, status codes, and latency in milliseconds.
+  - Multi-parameter query filtering on event listings (by status, venue, date ranges).
+
+👉 *Explore all public source code:* **[View All Public Repositories →](https://github.com/Gaurang-Agl?tab=repositories)**
+
+---
+
