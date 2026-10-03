@@ -29,6 +29,22 @@ DEVELOPMENT TOOLS    Cursor • VS Code • Postman • Docker Desktop • GitHu
 
 ### `02 / FEATURED SYSTEMS & REPOSITORIES (PUBLIC DEEP-DIVE)`
 
+#### 🛡️ [CollabDocs — Multi-Tenant Collaborative Document Platform](https://github.com/Gaurang-Agl/CollabDocs)
+> **Stack:** Python · Django 5.2.6 · DRF 3.16.1 · PostgreSQL (`psycopg 3`) · Postman Collections
+- **Multi-Tenant Architecture:** Enterprise workspace backend providing tenant-isolated workspaces with granular Role-Based Access Control (**Admin, Editor, Viewer**).
+- **Relational Data Integrity & 8 UUID Models:**
+  - Custom data architecture built across 8 UUID-keyed models: `User`, `Workspace`, `WorkspaceMember`, `Document`, `DocumentVersion`, `Comment`, `Tag`, and `AuditLog`.
+  - Uses `transaction.atomic()` to guarantee rollback safety during workspace provisioning and snapshot generation for document revision history.
+- **ORM Optimization & High-Efficiency Queries:**
+  - Extensively tuned queries utilizing `select_related`, `prefetch_related`, `distinct()`, `values_list()`, and complex `Q` object lookups to eliminate $N+1$ query overhead.
+  - Real-time aggregation endpoints for workspace summaries and document stats powered by `Count`, `annotate()`, and `aggregate()`.
+- **Audit Logging & Quality Rigor:**
+  - Custom request-duration middleware profiling endpoint performance in milliseconds.
+  - Signal-driven `AuditLog` generation via `post_save` on `Document` checking `instance._state.adding` to automatically track user modifications.
+  - **31 Automated Test Cases** in `collaboration/tests.py` (1,112 lines of tests) covering atomic creation, rollback on duplicate member conflicts (409 Conflict), sequential versioning, and RBAC enforcement.
+  - Accompanied by a comprehensive 252-line security audit (`API_ANALYSIS_AND_IMPROVEMENTS.md`) detailing boundary condition handling and privilege escalation guards.
+
+
 #### 🏢 [TeamBoard (B2BKnowledgeBase) — Enterprise B2B Knowledge Platform](https://github.com/Gaurang-Agl/B2BKnowledgeBase)
 > **Stack:** Python 3.14 · Django 6.1 · Django REST Framework · Simple JWT · PostgreSQL 17 · Docker Compose
 - **Platform Architecture:** Centralized B2B Knowledge Base API service serving multi-company client applications with dual authentication (Company API Key + JWT Bearer tokens).
