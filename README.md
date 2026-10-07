@@ -29,6 +29,24 @@ DEVELOPMENT TOOLS    Cursor • VS Code • Postman • Docker Desktop • GitHu
 
 ### `02 / FEATURED SYSTEMS & REPOSITORIES (PUBLIC DEEP-DIVE)`
 
+#### 🚀 [PulseNotify — Flight Price Monitor & Asynchronous Alert Engine](https://github.com/Gaurang-Agl/PulseNotify)
+> **Stack:** Python 3.14 · Django REST Framework · Celery · Celery Beat · Redis · PostgreSQL · Docker Compose
+- **Engine Architecture:** Modeled after distributed price-alert systems in Google Flights and Skyscanner. Tracks non-blocking route thresholds (e.g., `DEL-BOM` under ₹4,500) and triggers automated dispatches upon price drops.
+- **Asynchronous Task Architecture:**
+  - Configured **Celery Beat** to wake periodic worker processes every 60 seconds without manual intervention.
+  - Workers poll route pricing, evaluate deltas against stored alerts, and fire `send_notification.delay()` asynchronously to log notification history and update alert states.
+  - Query Optimization: Extracts distinct origin-destination pairs via `active_alerts.values_list('origin', 'destination').distinct()` to query external price feeds once per route rather than once per alert.
+  - Internal simulation feed (`/api/flights/price/`) dynamically models live fare fluctuations for realistic end-to-end testing.
+- **Data Modeling & Access Control:**
+  - Models: `UserProfile` (auto-created via `post_save` signals), `PriceAlert`, and `NotificationLog`.
+  - Enforces user-scoped query isolation and a custom `IsAdminUser` permission layer for platform telemetry.
+  - Soft Delete: Deleted alerts transition to `inactive` instead of SQL `DELETE`, preserving audit trails and metrics.
+- **DevOps & Testing:**
+  - Split settings architecture (`config/settings/base.py`, `local.py`, `production.py`).
+  - Multi-container `docker-compose.yml` orchestrating PostgreSQL and Redis broker services with healthchecks.
+  - Automated Postman collection (`PulseNotify.postman_collection.json`) validating alert lifecycles and token propagation.
+
+
 #### 🛡️ [CollabDocs — Multi-Tenant Collaborative Document Platform](https://github.com/Gaurang-Agl/CollabDocs)
 > **Stack:** Python · Django 5.2.6 · DRF 3.16.1 · PostgreSQL (`psycopg 3`) · Postman Collections
 - **Multi-Tenant Architecture:** Enterprise workspace backend providing tenant-isolated workspaces with granular Role-Based Access Control (**Admin, Editor, Viewer**).
