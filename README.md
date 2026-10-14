@@ -120,3 +120,47 @@ While proprietary codebases and production enterprise repositories remain privat
 
 ---
 
+
+### `04 / TECHNICAL TOOLKIT`
+
+| Category | Skills & Technologies |
+| :--- | :--- |
+| **Quality Engineering (7+ Yrs Core)** | Test Strategy & Planning · Functional & Regression Testing · API Testing (Postman/Newman) · Test Automation Principles · Defect Root-Cause Analysis · Shift-Left QA · Agile / Scrum |
+| **Backend Development (Projects)** | Python (3.12+ / 3.14) · Django · Django REST Framework (DRF) · Celery · Celery Beat · RESTful API Design · Async Task Pipelines |
+| **Databases, Caching & Queues** | PostgreSQL (17) · SQLite · Redis (Message Broker & Caching) · Relational Data Modeling · Transaction Safety (`transaction.atomic`) |
+| **DevOps, Environments & Tooling** | Cursor · Docker · Docker Compose · GitHub Actions · Postman API Collections · VS Code |
+
+<div align="center">
+
+<!-- Group 1: Backend Stack & Core Languages -->
+<a href="https://www.python.org" target="_blank" title="Python"><img src="https://skillicons.dev/icons?i=py" height="42" alt="Python" /></a>
+<a href="https://www.djangoproject.com" target="_blank" title="Django"><img src="https://skillicons.dev/icons?i=django" height="42" alt="Django" /></a>
+
+<!-- Group 2: Databases & Distributed Caching -->
+<a href="https://www.postgresql.org" target="_blank" title="PostgreSQL"><img src="https://skillicons.dev/icons?i=postgres" height="42" alt="PostgreSQL" /></a>
+<a href="https://redis.io" target="_blank" title="Redis"><img src="https://skillicons.dev/icons?i=redis" height="42" alt="Redis" /></a>
+
+<!-- Group 3: Quality Engineering & API Testing -->
+<a href="https://www.postman.com" target="_blank" title="Postman"><img src="https://skillicons.dev/icons?i=postman" height="42" alt="Postman" /></a>
+
+<!-- Group 4: Containers & Orchestration -->
+<a href="https://www.docker.com" target="_blank" title="Docker"><img src="https://skillicons.dev/icons?i=docker" height="42" alt="Docker" /></a>
+
+<!-- Group 5: CI/CD & Automation Pipelines -->
+<a href="https://github.com/features/actions" target="_blank" title="GitHub Actions"><img src="https://skillicons.dev/icons?i=githubactions" height="42" alt="GitHub Actions" /></a>
+
+<!-- Group 6: Code Editors & Development IDEs -->
+<a href="https://code.visualstudio.com" target="_blank" title="VS Code"><img src="https://skillicons.dev/icons?i=vscode" height="42" alt="VS Code" /></a>
+<a href="https://cursor.com" target="_blank" title="Cursor Code Editor"><img src="./assets/cursor.svg" height="42" alt="Cursor" /></a>
+
+<br /><br />
+
+<!-- Sequential Platform Badges Correlated Directly with Categories Above -->
+<a href="https://www.postman.com" target="_blank" title="Postman API Platform"><img src="https://img.shields.io/badge/API_TESTED-POSTMAN-0B1220?style=for-the-badge&logo=postman&logoColor=55B6FF" alt="Postman" /></a>
+<a href="https://docs.docker.com/compose/" target="_blank" title="Docker Compose Documentation"><img src="https://img.shields.io/badge/CONTAINERIZED-DOCKER_COMPOSE-0B1220?style=for-the-badge&logo=docker&logoColor=55B6FF" alt="Docker Compose" /></a>
+<a href="https://cursor.com" target="_blank" title="Cursor Code Editor"><img src="https://img.shields.io/badge/DEVELOPED_WITH-CURSOR-0B1220?style=for-the-badge&logo=cursor&logoColor=55B6FF" alt="Cursor" /></a>
+
+</div>
+
+---
+
