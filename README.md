@@ -164,3 +164,42 @@ While proprietary codebases and production enterprise repositories remain privat
 
 ---
 
+
+### `05 / GITHUB ACTIVITY & METRICS`
+
+<div align="center">
+
+<!-- Real-Time Activity Line Graph -->
+<a href="https://github.com/Gaurang-Agl?tab=overview" target="_blank">
+  <img width="98%" src="https://arshbibhaw-github-activity-graph.vercel.app/graph?username=Gaurang-Agl&amp;bg_color=080D17&amp;color=8EAFCB&amp;line=258DFF&amp;point=64DDFF&amp;area=true&amp;hide_border=true" alt="GitHub contribution activity graph" />
+</a>
+
+<sub><a href="https://github.com/Gaurang-Agl?tab=overview">View live contribution activity directly on GitHub →</a></sub>
+
+</div>
+
+<br />
+
+<!-- GitHub Contribution Calendar Heatmap Section -->
+<div align="center">
+  <a href="https://github.com/Gaurang-Agl?tab=overview" target="_blank">
+    <img width="98%" src="https://github-readme-stats.vercel.app/api?username=Gaurang-Agl&show_icons=true&hide_border=true&bg_color=080D17&title_color=55B6FF&text_color=C6D7E8&icon_color=258DFF" alt="GitHub statistics" />
+  </a>
+</div>
+
+<details>
+<summary><strong>📊 Telemetry &amp; Repository Analytics</strong></summary>
+
+<br />
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Gaurang-Agl&show_icons=true&hide_border=true&bg_color=080D17&title_color=55B6FF&text_color=C6D7E8&icon_color=258DFF" alt="GitHub statistics" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Gaurang-Agl&hide_border=true&background=080D17&stroke=243448&ring=258DFF&fire=55B6FF&currStreakLabel=C6D7E8&sideLabels=C6D7E8&dates=8EAFCB" alt="GitHub streak statistics" />
+
+</div>
+
+</details>
+
+---
+
