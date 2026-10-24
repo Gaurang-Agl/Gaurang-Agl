@@ -6,10 +6,15 @@
 
 **Senior QA Engineer (7+ Yrs) · Backend Software Developer**
 
+7+ years ensuring high software quality & reliability, actively engineering backend services with Python, Django, Celery, and PostgreSQL.
+
+[![RECOMMENDATIONS](https://img.shields.io/badge/RECOMMENDATIONS-LINKEDIN-00E5FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/gaurang-agl/details/recommendations/)
+[![REPOSITORIES](https://img.shields.io/badge/REPOSITORIES-5%20ACTIVE-00E5FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Gaurang-Agl?tab=repositories)
+[![PROFILE VIEWS](https://komarev.com/ghpvc/?username=Gaurang-Agl&label=PROFILE+VIEWS&color=00E5FF&style=for-the-badge&base=125)](https://github.com/Gaurang-Agl?tab=overview)
+
 </div>
 
 ---
-
 ### `01 / ABOUT`
 
 I am a **Software Quality Engineer with 7+ years of experience** spanning enterprise QA, automated API validation, and full software development lifecycles (SDLC), actively expanding my career into **Backend Software Engineering**.
