@@ -1,3 +1,4 @@
+<span id="top"></span>
 <div align="center">
 
 <img src="./assets/git_profile_banner.jpg" width="100%" alt="Gaurang Agarwal — Senior QA Engineer & Backend Software Developer" />
@@ -10,7 +11,7 @@
 
 [![RECOMMENDATIONS](https://img.shields.io/badge/RECOMMENDATIONS-LINKEDIN-00E5FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/gaurang-agl/details/recommendations/)
 [![REPOSITORIES](https://img.shields.io/badge/REPOSITORIES-5%20ACTIVE-00E5FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Gaurang-Agl?tab=repositories)
-[![PROFILE VIEWS](https://komarev.com/ghpvc/?username=Gaurang-Agl&label=PROFILE+VIEWS&color=00E5FF&style=for-the-badge&base=125)](https://github.com/Gaurang-Agl?tab=overview)
+![PROFILE VIEWS](https://hits.sh/github.com/Gaurang-Agl/profile.svg?style=for-the-badge&label=PROFILE+VIEWS&color=00e5ff&labelColor=0d1117)
 
 </div>
 
@@ -86,7 +87,7 @@ DEVELOPMENT TOOLS    Cursor • VS Code • Postman • Docker Desktop • GitHu
   - Containerized PostgreSQL 17 managed via Docker Compose for clean, reproducible development and staging environments.
   - Full API validation suite via `B2BKnowledgeBase_Postman_Collection.json` covering 11 distinct scenarios.
 
-#### ⚡ [EventHub — Concurrency-Safe Ticketing & Seat Reservation Platform](https://github.com/Gaurang-Agl/EventHub-Assignment)
+#### ⚡ [EventHub — Concurrency-Safe Ticketing & Seat Reservation Platform](https://github.com/Gaurang-Agl/EventHub)
 > **Stack:** Python · Django · Django REST Framework · SQLite / PostgreSQL · Custom Middleware
 - **Concurrency & Anti-Overbooking Engine:** High-volume event booking backend designed to prevent race conditions and double-booking anomalies during peak ticket drops.
 - **Transactional Integrity:**
@@ -240,3 +241,5 @@ Why this combination is a distinct asset whether evaluating for Backend Developm
 <sub>Tested with discipline. Built with curiosity.</sub>
 
 </div>
+
+<p align="right"><a href="#top" title="Back to top"><b>⬆ Back to Top</b></a></p>
