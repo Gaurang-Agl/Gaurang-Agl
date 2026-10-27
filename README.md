@@ -15,6 +15,7 @@
 </div>
 
 ---
+
 ### `01 / ABOUT`
 
 I am a **Software Quality Engineer with 7+ years of experience** spanning enterprise QA, automated API validation, and full software development lifecycles (SDLC), actively expanding my career into **Backend Software Engineering**.
@@ -31,8 +32,14 @@ DEVELOPMENT TOOLS    Cursor • VS Code • Postman • Docker Desktop • GitHu
 
 ---
 
-
 ### `02 / FEATURED SYSTEMS & REPOSITORIES (PUBLIC DEEP-DIVE)`
+
+```text
+01  ASYNCHRONOUS WORKERS      Periodic polling, background tasks & alert dispatches (Celery / Redis)
+02  MULTI-TENANCY & RBAC      Role-based access control, tenant isolation & audit logging
+03  API PLATFORMS & GATEWAYS  API key authentication, JWT security tokens & query analytics
+04  CONCURRENCY & INTEGRITY   Atomic database transactions & overbooking prevention
+```
 
 #### 🚀 [PulseNotify — Flight Price Monitor & Asynchronous Alert Engine](https://github.com/Gaurang-Agl/PulseNotify)
 > **Stack:** Python 3.14 · Django REST Framework · Celery · Celery Beat · Redis · PostgreSQL · Docker Compose
@@ -51,7 +58,6 @@ DEVELOPMENT TOOLS    Cursor • VS Code • Postman • Docker Desktop • GitHu
   - Multi-container `docker-compose.yml` orchestrating PostgreSQL and Redis broker services with healthchecks.
   - Automated Postman collection (`PulseNotify.postman_collection.json`) validating alert lifecycles and token propagation.
 
-
 #### 🛡️ [CollabDocs — Multi-Tenant Collaborative Document Platform](https://github.com/Gaurang-Agl/CollabDocs)
 > **Stack:** Python · Django 5.2.6 · DRF 3.16.1 · PostgreSQL (`psycopg 3`) · Postman Collections
 - **Multi-Tenant Architecture:** Enterprise workspace backend providing tenant-isolated workspaces with granular Role-Based Access Control (**Admin, Editor, Viewer**).
@@ -67,7 +73,6 @@ DEVELOPMENT TOOLS    Cursor • VS Code • Postman • Docker Desktop • GitHu
   - **31 Automated Test Cases** in `collaboration/tests.py` (1,112 lines of tests) covering atomic creation, rollback on duplicate member conflicts (409 Conflict), sequential versioning, and RBAC enforcement.
   - Accompanied by a comprehensive 252-line security audit (`API_ANALYSIS_AND_IMPROVEMENTS.md`) detailing boundary condition handling and privilege escalation guards.
 
-
 #### 🏢 [TeamBoard (B2BKnowledgeBase) — Enterprise B2B Knowledge Platform](https://github.com/Gaurang-Agl/B2BKnowledgeBase)
 > **Stack:** Python 3.14 · Django 6.1 · Django REST Framework · Simple JWT · PostgreSQL 17 · Docker Compose
 - **Platform Architecture:** Centralized B2B Knowledge Base API service serving multi-company client applications with dual authentication (Company API Key + JWT Bearer tokens).
@@ -80,7 +85,6 @@ DEVELOPMENT TOOLS    Cursor • VS Code • Postman • Docker Desktop • GitHu
   - Custom Django management command (`python manage.py seed_kb`) providing automated database population with baseline knowledge entries for testing and CI.
   - Containerized PostgreSQL 17 managed via Docker Compose for clean, reproducible development and staging environments.
   - Full API validation suite via `B2BKnowledgeBase_Postman_Collection.json` covering 11 distinct scenarios.
-
 
 #### ⚡ [EventHub — Concurrency-Safe Ticketing & Seat Reservation Platform](https://github.com/Gaurang-Agl/EventHub-Assignment)
 > **Stack:** Python · Django · Django REST Framework · SQLite / PostgreSQL · Custom Middleware
@@ -95,7 +99,6 @@ DEVELOPMENT TOOLS    Cursor • VS Code • Postman • Docker Desktop • GitHu
 👉 *Explore all public source code:* **[View All Public Repositories →](https://github.com/Gaurang-Agl?tab=repositories)**
 
 ---
-
 
 ### `03 / ENTERPRISE & PRIVATE CONTRIBUTIONS (A BRIEF GLIMPSE)`
 
@@ -124,7 +127,6 @@ While proprietary codebases and production enterprise repositories remain privat
 > *Repository code, proprietary business logic, and internal API credentials are confidential. However, the architectural design, defensive coding standards, and rigorous validation methodologies developed across these enterprise engagements directly inform my public backend projects.*
 
 ---
-
 
 ### `04 / TECHNICAL TOOLKIT`
 
@@ -169,7 +171,6 @@ While proprietary codebases and production enterprise repositories remain privat
 
 ---
 
-
 ### `05 / GITHUB ACTIVITY & METRICS`
 
 <div align="center">
@@ -208,7 +209,6 @@ While proprietary codebases and production enterprise repositories remain privat
 
 ---
 
-
 ### `06 / THE HYBRID ADVANTAGE`
 
 ```text
@@ -228,3 +228,27 @@ Why this combination is a distinct asset whether evaluating for Backend Developm
 
 ---
 
+### `07 / ENGINEERING PRINCIPLES`
+
+- **Process & Reliability:** Established processes, clear code reviews, and structured testing produce stable production releases.
+- **Defensive Engineering:** Anticipating edge cases, handling nulls/exceptions, and validating inputs early saves hours of debugging.
+- **Continuous Learning:** Eager to grasp, learn, and implement modern backend technologies while leveraging established QA experience.
+- **Clarity & Documentation:** Code should be readable, APIs should have clear contracts, and Postman collections should be reproducible.
+
+---
+
+<div align="center">
+
+**Open to backend software developer roles or senior QA opportunities.**
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/LIVE_PORTFOLIO-00E5FF?style=for-the-badge&logo=netlify&logoColor=0B1220)](https://portfolio-gaurang.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gaurang-agl/)
+[![Email](https://img.shields.io/badge/EMAIL-gaurang.mragarwal@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gaurang.mragarwal@gmail.com)
+
+<br/>
+
+<sub>Tested with discipline. Built with curiosity.</sub>
+
+</div>
