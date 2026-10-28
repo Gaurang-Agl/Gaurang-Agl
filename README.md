@@ -12,6 +12,8 @@
 [![RECOMMENDATIONS](https://img.shields.io/badge/RECOMMENDATIONS-LINKEDIN-00E5FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/gaurang-agl/details/recommendations/)
 [![REPOSITORIES](https://img.shields.io/badge/REPOSITORIES-5%20ACTIVE-00E5FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Gaurang-Agl?tab=repositories)
 ![PROFILE VIEWS](https://hits.sh/github.com/Gaurang-Agl/profile.svg?style=for-the-badge&label=PROFILE+VIEWS&color=00e5ff&labelColor=0d1117)
+[![LICENSE: PROPRIETARY](https://img.shields.io/badge/LICENSE-PROPRIETARY%20%2F%20ALL%20RIGHTS%20RESERVED-FF3366?style=for-the-badge&logo=shield&logoColor=white&labelColor=0d1117)](./LICENSE)
+[![PROTECTION](https://img.shields.io/badge/PROTECTION-DMCA%20MONITORED-00E5FF?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=0d1117)](./LICENSE)
 
 </div>
 
@@ -223,6 +225,20 @@ Why this combination is a distinct asset whether evaluating for Backend Developm
 - **Defensive Engineering:** Anticipating edge cases, handling nulls/exceptions, and validating inputs early saves hours of debugging.
 - **Continuous Learning:** Eager to grasp, learn, and implement modern backend technologies while leveraging established QA experience.
 - **Clarity & Documentation:** Code should be readable, APIs should have clear contracts, and Postman collections should be reproducible.
+
+---
+
+### `08 / INTELLECTUAL PROPERTY & PROPRIETARY NOTICE`
+
+> [!IMPORTANT]
+> **Copyright & Legal Protection Notice**
+>
+> **© 2026 Gaurang Agarwal. All Rights Reserved.**  
+> The system architectures, benchmark data, documentation narratives, codebase designs, and profile content showcased on [github.com/Gaurang-Agl](https://github.com/Gaurang-Agl) and related repositories represent original, proprietary work.
+>
+> - **Anti-Plagiarism & Replication Restriction:** Unauthorized copying, cloning, scraping, or re-hosting of these materials to create replica profiles, portfolios, or derivative claims is strictly prohibited.
+> - **Legal & DMCA Enforcement:** Violations and unauthorized mirrors are actively monitored and subject to immediate Digital Millennium Copyright Act (DMCA) takedown notices submitted directly to GitHub Legal and web service providers.
+> - **Inquiries:** For licensing, commercial questions, or permissions, reach out via [gaurang.mragarwal@gmail.com](mailto:gaurang.mragarwal@gmail.com).
 
 ---
 
